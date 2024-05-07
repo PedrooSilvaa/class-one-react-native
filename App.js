@@ -1,11 +1,15 @@
-import { styles } from './style.js';
-import {Text, View,} from 'react-native';
+import * as Page from "./src/class/styled-external"
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Hello</Text>
-      <Text style={styles.paragraph}>World</Text>
-    </View>
+    <Page.PageContainer>
+      <Page.PageTitle>
+        React Native
+      </Page.PageTitle>
+      <Page.PageSubTitle>
+        Styled-Components
+      </Page.PageSubTitle>
+    </Page.PageContainer>
   );
 }
