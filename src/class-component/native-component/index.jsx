@@ -27,5 +27,3 @@ const CreativeComponent = React.FC = () => {
 }
 
 export default CreativeComponent;
-
-

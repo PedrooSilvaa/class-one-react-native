@@ -1,7 +1,9 @@
-import CreativeComponent from './src/class-component/native-component/index';
+
+import Main from './src/type-weather/pages/main';
+
 
 export default function App() {
   return (
-    <CreativeComponent/>
+    <Main />
   );
 }
