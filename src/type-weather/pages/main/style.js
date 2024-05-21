@@ -19,14 +19,18 @@ export const HeaderSubContainer = styled.View`
     display: flex;
     flex-direction: column;
     background-color: #16161F;
+    border-radius: 10px;
+    padding: 20px 0;
     width: 90%;
 `
 export const HeaderContainerImageAndInput = styled.View`
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    padding: 0;
+    margin: 0 13px 20px 13px;
+    align-items: center;
+    gap: 15px;
     width: 90%;
-    padding: 10px;
 `
 
 export const HeaderLocalImage = styled.View `
@@ -41,7 +45,7 @@ export const HeaderImage = styled.Image `
 `
 
 export const HeaderInput = styled.TextInput `
-    width: 90%;
+    width: 80%;
     font-size: 20px;
     padding: 20px;
     border-radius: 10px;
@@ -49,3 +53,9 @@ export const HeaderInput = styled.TextInput `
     background-color: #1E1E29;
 `
 
+export const HeaderImageTemp = styled.Image `
+    width: 320px;
+    border-radius: 10px;
+    height: 304px;
+    margin: 0 13px;
+`
